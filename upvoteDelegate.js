@@ -6,9 +6,7 @@ const axios = require('axios')
 const secret = "sentence weasel match weather apple onion release keen lens deal fruit matrix"
 
 // vote for myself
-let delegateList = [
-  'a7cfd49d25ce247568d39b17fca221d9b2ff8402a9f6eb6346d2291a5c81374c'
-]
+let delegateList = ['a1300']
 
 let trs = aschJS.vote.createVote(delegateList, secret)
 
