@@ -5,7 +5,7 @@ let aschJS = require('asch-js')
 const axios = require('axios')
 const secret = "sentence weasel match weather apple onion release keen lens deal fruit matrix"
 
-let trs = aschJS.uia.createIssue('ASDF.TOK', "200000", secret)
+let trs = aschJS.uia.createIssue('ASDF.TOK', new String(1000000000), secret)
 
 let data = {
   transaction: trs

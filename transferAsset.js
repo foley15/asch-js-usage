@@ -9,7 +9,7 @@ const secret = "sentence weasel match weather apple onion release keen lens deal
 let recipient = "AGcqEW2B2WR45eDDndMq4a72k1wMSW4wsz"
 let message = undefined
 
-let trs = aschJS.uia.createTransfer('ASDF.TOK', 100 * 1e8, recipient, message, secret)
+let trs = aschJS.uia.createTransfer('ASDF.TOK', 200000, recipient, message, secret)
 
 let data = {
   transaction: trs
