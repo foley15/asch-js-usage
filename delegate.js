@@ -5,9 +5,6 @@ let aschJS = require('asch-js')
 const axios = require('axios')
 const secret = "sentence weasel match weather apple onion release keen lens deal fruit matrix"
 
-
-
-
 let trs = aschJS.delegate.createDelegate(secret)
 
 let data = {
